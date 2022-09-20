@@ -11,11 +11,11 @@ async function foo() {
         div.innerHTML = `<div class="card text-white bg-secondary mb-3" style="max-width: 400px; margin-left:400px;" >
         <div class="card-header" style="text-align:center;">Harry potter characters</div>
         <div class="card-body">
-        <p class="card-text">Name:    ${res1[0].name}</p>
-        <p class="card-text">Gender:    ${res1[0].gender}</p>
-        <p class="card-text">DOB:    ${res1[0].dateOfBirth}</p>
+        <p class="card-text">Name:    ${res1[1].name}</p>
+        <p class="card-text">Gender:    ${res1[1].gender}</p>
+        <p class="card-text">DOB:    ${res1[1].dateOfBirth}</p>
         
-        <img src="${res1[0].image}" class="card-img-top">
+        <img src="${res1[1].image}" class="card-img-top" style="width:200px; margin-left:70px;">
         </div>
       </div>
         </div>
